@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Html5 Calendar</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script type="text/javascript" src="calendar.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<h1><img src="html5logo.png" width="64" height="64" alt="html5" /> Calendar</h1>
+	</div>
+
+	<div id="container">
+		<div id="date-cur"></div>
+		<ol id="days">
+			<li>Mon</li><li>Tue</li><li>Wed</li><li>Thu</li><li>Fri</li><li>Sat</li><li>Sun</li>
+		</ol>
+		<div class="clear"></div>
+		<ol id="calendar"></ol>
+		<div class="clear"></div>
+	</div>
+
+	<div id="footer">
+		Use the browser's back/forward buttons to change day.<br />
+		Click on <span class="add-event">+</span> to create multiple events per day, click on an event to edit/delete.
+	</div>
+	<a id="add-event" href="javascript:void(0)">+</a>
+
+	<div id="new-event" href="javascript:void(0)">
+		<textarea id="event-txt"></textarea>
+		<div id="event-bar">
+			<button id="delete-event">Delete</button>
+			<button id="create-event">Create event</button> |
+			<a id="cancel-event" href="javascript:void(0)">Cancel</a>
+		</div>
+	</div>
+</body>
+</html>
