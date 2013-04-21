@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+	<link href="cuerpo.css" rel="stylesheet" type="text/css" />
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.2.js'></script>
+    <script type='text/javascript' src='js/jquery.circulate.js'></script>
+    <script type='text/javascript' src='js/example.js'></script>
+     <link rel="stylesheet" href="css/normalize.css" />
+  
+  <link rel="stylesheet" href="css/foundation.css" />
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>My Space Cal</title>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  
+  <link rel="stylesheet" href="css/foundation.css" />
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+	
+
+    <img src="exomars_TGO.png" alt="Aqui hay un satelite (;" id="unicorn" />
+
+	 <div id="page-wrap">
+       <img src="SPLASH_MOVIL.png" alt="Circulate" />
+       
+       <h1> Información del proyecyo </h1>
+       <p> Somos super chingones y esas cosas </p>
+
+   <div class="row">
+         <div class="large-1 columns">.</div>
+         <div class="large-10 large-offset-1 columns"><h1>My Space Cal</h1></div>
+    </div>
+
+
+
+    <div class="section-container tabs" data-section="tabs">
+      <section>
+        <p class="title" data-section-title><a href="#">Satallite</a></p>
+        <div class="content" data-section-content>
+            <div class="row">
+               
+        <div class="large-1 columns">
+            <form>
+                <select name="Satellite">
+                <option value="ALL">All</option>
+                <option value="XMM">XMM - Newton</option>
+                <option value="Swift">Swift </option>
+                <option value="Suzaku">Suzaku</option>
+                <option value="Spitzer">Spitzer</option>  
+                <option value="RXTE">RXTE</option>  
+                <option value="NuSTAR">NuSTAR</option>  
+                <option value="INTEGRAL">INTEGRAL</option>  
+                <option value="Herschel">Herschel</option>  
+                <option value="Fermi">Fermi</option>  
+                <option value="Chandra">Chandra</option>  
+                <option value="AGILE">AGILE</option>  
+                </select>
+            </form>
+          </div>
+                 <div class="large-2 columns">
+                    <form id="cse-search-box" action="">
+                    <input type="text" style="color:#ccc;" value="Specify Target (Optional)" onfocus="this.value = this.value=='username' ? '' : this.value; this.style.color='#000';" onfocusout="this.value = this.value == '' ? this.value = 'username' : this.value; this.value=='username' ? this.style.color='#ccc' : this.style.color='#000'"/>
+                    </form>
+                </div>
+            <div class="large-1 columns">
+                <form>
+                <select name="Wavelength">
+                <option value="ALL">All</option>  
+                <option value="XRay">X-Ray</option>
+                <option value="Gamma">Gamma Ray</option>
+                <option value="IR">Infrared</option>
+                <option value="UV">Ultra-Violet</option>  
+                <option value="Visible">Visible</option>  
+                </select>
+                </form>
+            </div>
+            <div class="large-1 columns">
+                <form>
+                <select name="DayFrom">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+            <div class="large-1 columns">
+                <form>
+                <select name="MonthFrom">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>   
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearFrom">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                to
+                    </div>
+                <div class="large-1 columns">
+                <form>
+                <select name="DayTill">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="MonthTill">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearTill">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option> 
+                </select>
+                </form></div>
+            </div>
+            
+            <div class="row">
+                <div class="large-3 large-offset-9 columns"><a href="#" class="button round">Search</a></div>
+            </div>
+        </div>
+   
+      </section>
+
+      <section>
+        <p class="title" data-section-title><a href="#">Date</a></p>
+        <div class="content" data-section-content>
+          <div class="row">
+            <div class="large-1 columns">
+                <form>
+                <select name="DayFrom">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+            <div class="large-1 columns">
+                <form>
+                <select name="MonthFrom">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>   
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearFrom">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                to
+                    </div>
+                <div class="large-1 columns">
+                <form>
+                <select name="DayTill">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="MonthTill">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearTill">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option> 
+                </select>
+                </form></div>
+              <div class="large-1 columns">
+            <form>
+                <select name="Satellite">
+                <option value="ALL">All</option>
+                <option value="XMM">XMM - Newton</option>
+                <option value="Swift">Swift </option>
+                <option value="Suzaku">Suzaku</option>
+                <option value="Spitzer">Spitzer</option>  
+                <option value="RXTE">RXTE</option>  
+                <option value="NuSTAR">NuSTAR</option>  
+                <option value="INTEGRAL">INTEGRAL</option>  
+                <option value="Herschel">Herschel</option>  
+                <option value="Fermi">Fermi</option>  
+                <option value="Chandra">Chandra</option>  
+                <option value="AGILE">AGILE</option>  
+                </select>
+            </form>
+          </div>
+                 <div class="large-2 columns">
+                    <form id="cse-search-box" action="">
+                    <input type="text" style="color:#ccc;" value="Specify Target (Optional)" onfocus="this.value = this.value=='username' ? '' : this.value; this.style.color='#000';" onfocusout="this.value = this.value == '' ? this.value = 'username' : this.value; this.value=='username' ? this.style.color='#ccc' : this.style.color='#000'"/>
+                    </form>
+                </div>
+            <div class="large-1 columns">
+                <form>
+                <select name="Wavelength">
+                <option value="ALL">All</option>  
+                <option value="XRay">X-Ray</option>
+                <option value="Gamma">Gamma Ray</option>
+                <option value="IR">Infrared</option>
+                <option value="UV">Ultra-Violet</option>  
+                <option value="Visible">Visible</option>  
+                </select>
+                </form>
+            </div>
+              <div class="row">
+                <div class="large-3 large-offset-9 columns"><a href="#" class="button round">Search</a></div>
+            </div>
+        </div>
+      </section> 
+      <section>
+        <p class="title" data-section-title><a href="#">Wave Lenght</a></p>
+        <div class="content" data-section-content>
+          <div class="row">
+              <div class="large-1 columns">
+                <form>
+                <select name="Wavelength">
+                <option value="ALL">All</option>  
+                <option value="XRay">X-Ray</option>
+                <option value="Gamma">Gamma Ray</option>
+                <option value="IR">Infrared</option>
+                <option value="UV">Ultra-Violet</option>  
+                <option value="Visible">Visible</option>  
+                </select>
+                </form>
+            </div>
+               
+        <div class="large-1 columns">
+            <form>
+                <select name="Satellite">
+                <option value="ALL">All</option>
+                <option value="XMM">XMM - Newton</option>
+                <option value="Swift">Swift </option>
+                <option value="Suzaku">Suzaku</option>
+                <option value="Spitzer">Spitzer</option>  
+                <option value="RXTE">RXTE</option>  
+                <option value="NuSTAR">NuSTAR</option>  
+                <option value="INTEGRAL">INTEGRAL</option>  
+                <option value="Herschel">Herschel</option>  
+                <option value="Fermi">Fermi</option>  
+                <option value="Chandra">Chandra</option>  
+                <option value="AGILE">AGILE</option>  
+                </select>
+            </form>
+          </div>
+                 <div class="large-2 columns">
+                    <form id="cse-search-box" action="">
+                    <input type="text" style="color:#ccc;" value="Specify Target (Optional)" onfocus="this.value = this.value=='username' ? '' : this.value; this.style.color='#000';" onfocusout="this.value = this.value == '' ? this.value = 'username' : this.value; this.value=='username' ? this.style.color='#ccc' : this.style.color='#000'"/>
+                    </form>
+                </div>
+            
+            <div class="large-1 columns">
+                <form>
+                <select name="DayFrom">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+            <div class="large-1 columns">
+                <form>
+                <select name="MonthFrom">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>   
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearFrom">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                to
+                    </div>
+                <div class="large-1 columns">
+                <form>
+                <select name="DayTill">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="MonthTill">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearTill">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option> 
+                </select>
+                </form></div>
+              <div class="row">
+                <div class="large-3 large-offset-9 columns"><a href="#" class="button round">Search</a></div>
+            </div>
+        </div>
+      </section>
+      <section>
+        <p class="title" data-section-title><a href="#">Target</a></p>
+        <div class="content" data-section-content>
+          <div class="row">
+              <div class="large-2 columns">
+                    <form id="cse-search-box" action="">
+                    <input type="text" style="color:#ccc;" value="Specify Target (Optional)" onfocus="this.value = this.value=='username' ? '' : this.value; this.style.color='#000';" onfocusout="this.value = this.value == '' ? this.value = 'username' : this.value; this.value=='username' ? this.style.color='#ccc' : this.style.color='#000'"/>
+                    </form>
+                </div>
+               
+        <div class="large-1 columns">
+            <form>
+                <select name="Satellite">
+                <option value="ALL">All</option>
+                <option value="XMM">XMM - Newton</option>
+                <option value="Swift">Swift </option>
+                <option value="Suzaku">Suzaku</option>
+                <option value="Spitzer">Spitzer</option>  
+                <option value="RXTE">RXTE</option>  
+                <option value="NuSTAR">NuSTAR</option>  
+                <option value="INTEGRAL">INTEGRAL</option>  
+                <option value="Herschel">Herschel</option>  
+                <option value="Fermi">Fermi</option>  
+                <option value="Chandra">Chandra</option>  
+                <option value="AGILE">AGILE</option>  
+                </select>
+            </form>
+          </div>
+                 
+            <div class="large-1 columns">
+                <form>
+                <select name="Wavelength">
+                <option value="ALL">All</option>  
+                <option value="XRay">X-Ray</option>
+                <option value="Gamma">Gamma Ray</option>
+                <option value="IR">Infrared</option>
+                <option value="UV">Ultra-Violet</option>  
+                <option value="Visible">Visible</option>  
+                </select>
+                </form>
+            </div>
+            <div class="large-1 columns">
+                <form>
+                <select name="DayFrom">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+            <div class="large-1 columns">
+                <form>
+                <select name="MonthFrom">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>   
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearFrom">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                to
+                    </div>
+                <div class="large-1 columns">
+                <form>
+                <select name="DayTill">
+                <option value="default">Day</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option> 
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option> 
+                <option value="22">22</option> 
+                <option value="23">23</option> 
+                <option value="24">24</option> 
+                <option value="25">25</option> 
+                <option value="26">26</option> 
+                <option value="27">27</option> 
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="MonthTill">
+                <option value="default">Month</option>
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>  
+                </select>
+                </form></div>
+                <div class="large-1 columns">
+                <form>
+                <select name="YearTill">
+                <option value="default">Year</option>
+                <option value="1990">1990</option>  
+                <option value="1990">1991</option>  
+                <option value="1992">1992</option>  
+                <option value="1993">1993</option>  
+                <option value="1994">1994</option>  
+                <option value="1995">1995</option>  
+                <option value="1996">1996</option>  
+                <option value="1997">1997</option>  
+                <option value="1998">1998</option>  
+                <option value="1999">1999</option>  
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option> 
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option> 
+                <option value="2010">2010</option> 
+                <option value="2011">2011</option> 
+                <option value="2012">2012</option> 
+                <option value="2013">2013</option> 
+                </select>
+                </form></div>
+              <div class="row">
+                <div class="large-3 large-offset-9 columns"><a href="#" class="button round">Search</a></div>
+            </div>
+        </div>
+      </section>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script>
+    $(document).foundation();
+  </script>
+          <h2>Integrantes de equipo:</h2>
+        <p> Andrés Eduardo Váquez Pérez </p>
+        <p> Juan Carlos Pérez Castellanos </p>
+        <p> Eduardo Regalado Pelayo </p>
+        <p> Carlos Noriega Suarez </p>
+</body>
+</html>
